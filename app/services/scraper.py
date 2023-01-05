@@ -28,6 +28,7 @@ def scrap_url(url: str, css_selector: Union[str, None] = None ) -> ScraperUrl:
         page_source = driver.page_source
         soup = BeautifulSoup(page_source, "html.parser")
         prettied = soup.prettify()
+        driver.close()
         return {
             "is_success": True,
             "data": prettied
