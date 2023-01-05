@@ -1,6 +1,6 @@
-# scraper-api
+# Personal API
 
-This project was generated via [manage-fastapi](https://ycd.github.io/manage-fastapi/)! :tada:
+This is my project for utilizing another personal projects
 
 ## License
 
